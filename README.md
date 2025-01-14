@@ -22,5 +22,5 @@
 1. 克隆项目仓库：
 
    ```bash
-   git clone https://github.com/AIKO05302/Cot-llm.git
+   git clone https://github.com/AIKO05302/cot-llm.git
    ```
