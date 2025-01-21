@@ -9,12 +9,10 @@ from AutoCot.CotLLM import CotLLM
 load_dotenv()
 os.environ["DASHSCOPE_API_KEY"] = os.getenv('DASHSCOPE_API_KEY')
 
-tools = [
-    mocked_location_tool,
-    calculator_tool,
-    calendar_tool,
-    webpage_tool,
-] + file_toolkit.get_tools()
+tools = ([
+    rag_tool,
+])
+
 
 
 def launch_agent(agent):
